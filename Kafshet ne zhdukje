@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafshet ne Zhdukje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kafshët në Zhdukje</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Rreth</a></li>
+                <li><a href="#animals">Kafshët</a></li>
+                <li><a href="#contact">Kontakto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Rreth</h2>
+        <p>Kjo faqe është krijuar për të ndërgjegjësuar njerëzit mbi kafshët që janë në rrezik zhdukjeje.</p>
+    </section>
+
+    <section id="animals">
+        <h2>Kafshët</h2>
+        <div class="animal">
+            <h3>Tigri i Bengalit</h3>
+            <img src="bengal-tiger.jpg" alt="Tigri i Bengalit">
+            <p>Tigri i Bengalit është një nga speciet më të rrezikuara të tigrave në botë.</p>
+        </div>
+        <div class="animal">
+            <h3>Elefanti Afrikan</h3>
+            <img src="african-elephant.jpg" alt="Elefanti Afrikan">
+            <p>Elefanti Afrikan është në rrezik zhdukjeje për shkak të gjuetisë ilegale dhe humbjes së habitatit.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakto</h2>
+        <form>
+            <label for="name">Emri:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesazhi:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Dërgo</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kafshët në Zhdukje</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
